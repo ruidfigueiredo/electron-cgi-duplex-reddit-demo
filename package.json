@@ -1,0 +1,13 @@
+{
+  "name": "electron-cgi-duplex-reddit-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "cd reddit-new-posts-node && npm install",
+    "start": "cd reddit-new-posts-node && node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
