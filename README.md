@@ -2,6 +2,10 @@
 
 Demo project for ElectronCGI's duplex functionality.
 
+To run, clone the project and then at the root (you need Node.js and dotnet core installed):
+
+  $ npm install && npm start
+
 The Node.js application uses ElectronCGI to connect to a .Net Core application that on every second queries reddit:
 
 ![sequence diagram illustrating the four request types in the app](https://www.blinkingcaret.com/wp-content/uploads/2019/11/electron-cgi-duplex-showcase-diagram.png)
